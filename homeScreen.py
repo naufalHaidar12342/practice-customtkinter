@@ -5,8 +5,10 @@ class HomeScreen(customtkinter.CTk):
     def __init__(self,):
         super().__init__()
 
-        self.title("Home screen")
-        self.geometry("1920x1080")
+        self.title("Chatbot Mengajar")
+
+        # set window to fullscreen immediately at launched
+        self.state("zoomed")
 
 
 if __name__ == "__main__":
